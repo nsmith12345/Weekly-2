@@ -1,87 +1,85 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+section {
+  height: 500px;
+  background-color: #3aafa9;
 }
 
-body {
-    background-color: #3AAFA9;
-    font-family: Helvetica, Arial, sans-serif;
-}
+/* HEADER / NAV BAR STYLES START */
 
-/* apply styles to <header> */
-.header {
-    Padding: 20px 35px;
-    display: flex;   
-     
-}
-
-.header h1 {
-    font-weight: bold;
-    font-size: 36px;
-    color: #4c38fc;
-    margin: 0;
-    display: inline;
-  }
-  
- .header a {
-     text-decoration: none; 
-    color: #3b38fc;
-  }
-
-  .header nav {
-      float: right;
-      margin: 7px 0;
-  }
-
-  .header nav ul li {
-      display: inline;
-  }
-
-  .header nav ul li a {
-      margin: 0 30px;
-      font-weight: lighter;
-      font-size: 22px; 
-  }
-
-  /* hero section */
-.hero {
+header  {
+    padding: 20px 35px;
     display: flex;
-    justify-content: left;
+    justify-content: space-between;
     flex-wrap: wrap;
-    align-items: flex-start;    
+    position: sticky;
+    position: -webkit-sticky;   
+    top: 0;
+    background-image: url("../Weekly-2/images/Light-Wood.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 80%;
+    z-index: 9999;
+    background-color: #3aafa9;
+    font-size: 20px;  
+    font: #000000;
+    border-bottom: 5px, #3aafa9    
 }
 
-.hero-cta {
-    width: 35%;
-    text-align: center;
-    margin: 3.5%;
-    font-size: 18px;
-    line-height: 1.2;
-    
+header h1 {
+    font-weight: bold;
+    margin: 0;
+    font-size: 36px;
 }
 
+header a {
+    text-decoration: none;
+    color: var(--primary-color);
+}
 
+header nav {
+    margin: 7px 0;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+header nav ul li a:hover {
+    background: var(--primary-color);
+    color: var(--secondary-color);
+    border-radius: 15px;
+    text-shadow: none;
+}
+
+/* HEADER / NAVBAR STYLES END */
 
 footer {
-    background: #00f; 
-    width: 100%;
-    padding:40px 35px;  
+    height: 500px;
+    background-color: #3aafa9;
 }
 
-footer h2 {
-    display: inline;
-    color: #024e76;
-    font-size: 30px;
-    margin: 0;
-  }
+nav {
+    display: flex;
+    justify-content: space-between;
+}
 
-footer div {
-    float: right;
-    line-height: 1.5;
-    text-align: right;
-  }
+ul {
+    display: flex;
+    list-style-type: 
+    width: 200 px;
+    justify-content: space-between;  
+}
 
-  footer a {
-    color: #024e76;
-  }
+li {
+    width: 200px;
+}
