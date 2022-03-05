@@ -15,10 +15,6 @@ header  {
     top: 0;
     z-index: 9999;
     background-color: #3aafa9;
-    background-image: url("/images/header-image.jpg");
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: 80%;
     font-size: 20px;  
     font: #000000;
     border-bottom: 5px, #3aafa9    
@@ -75,7 +71,6 @@ nav {
 
 ul {
     display: flex;
-    list-style-type:  
     width: 200 px;
     justify-content: space-between;  
 }
@@ -88,5 +83,9 @@ li {
     background-image: url("/images/header-image.jpg");
     background-size: cover;
     background-attachment: fixed;
-    background-position: 80%;background-image: 
+    background-position: 80%;
+}
+
+.about {
+    
 }
