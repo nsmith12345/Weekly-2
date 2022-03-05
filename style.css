@@ -83,11 +83,38 @@ li {
     /* background-image: url("/images/header-image.jpg"); */
     background-size: cover;
     background-position: center;
-    max-height: 100vh;
+    max-height: 55vh;
     background-repeat: no-repeat;
     min-width: 100%;
     background-repeat: no-repeat;
 
 }
 
-.about {}
+.first-txt {
+    position: absolute;
+    right: 500px;
+    padding: 25px;
+    font-size: 50Px;
+    color: rgb(2, 2, 2);
+    background-color: #3aafa9
+
+}
+
+.about-me {
+    height: 55vh;
+    
+}
+
+.flex-row {
+    position: right;
+    right: 200px;
+}
+
+.second-txt {
+    position: right;
+    right: 200px;
+}
+
+.coding-img {
+
+}
