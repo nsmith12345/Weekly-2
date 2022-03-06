@@ -132,13 +132,14 @@ li {
 }
 
 .about-me-p {
-    display: flex;
+    display: table-column;
     right: 200px;
-    margin: 50px;
+    margin: 500px;
     padding: 50px; 
     font: bold;
     font-size: larger;
-    margin-top: 100px;
+    margin-top: -225px;
+    float: right;
 }
 
 
@@ -199,4 +200,14 @@ li {
 .headshot {
     width: 300px;
     border-radius: 150px;
+    display: flex;
+    margin-left: 600px;
+    margin: 300px;  
+    margin-top: -225px;
+    padding: 10px;
+    width: 70%;
+    list-style: none;
+    height: 200px;
+    width: 200px;  
+    
 }
