@@ -101,14 +101,27 @@ li {
 }
 
 .about-me {
+    position: right;
     height: 55vh;
-    padding-bottom: 200px; 
-       
+    padding-bottom: 0px; 
+    margin-left: 50px;
+      
+}
+
+.about-me-p {
+    position: right;
+    height: 55vh;
+    padding-bottom: 0px;
+    text-align: justify; 
 }
 
 .flex-row {
     position: right;
     right: 200px;
+    margin: 50px; 
+    padding: 50px;
+    font: bold;
+    font-size: larger;
 }
 
 .second-txt {
@@ -116,6 +129,33 @@ li {
     right: 200px;
 }
 
+.section-title-primary-border {
+    font-size: 50px; 
+}
+
 .coding-img {
+    display: flex;
+    margin-left: 500px;
+    margin: 15px 25px;  
+    padding: 10px;
+    width: 70%;
+    position: relative;
+    list-style: none;
+}
+
+.coding-img ul {
 
 }
+
+.coding-img ul li {
+
+}
+
+.coding-img img {
+
+}
+
+.coding-img ul li:hover {
+
+}
+    
