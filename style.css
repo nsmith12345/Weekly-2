@@ -84,7 +84,6 @@ li {
     background-repeat: no-repeat;
     min-width: 100%;
     background-repeat: no-repeat;
-
 }
 
 .first-txt {
@@ -95,7 +94,6 @@ li {
     font-size: 50Px;
     color: rgb(2, 2, 2);
     background-color: #3aafa9
-
 }
 
 .flex-row-1 {
@@ -105,30 +103,23 @@ li {
     font: bold;
     font-size: larger;
     margin-top: 100px;
-    border: 5px;
+    content: 0px;
     border-width: 2px;
     border-color: #000000;
-  
 }
 
-.flex-row-2 {
-    right: 200px;
-    margin: 50px; 
-    padding: 5px;
-    font: bold;
-    font-size: larger;
-    margin-top: 100px;
-    
-}
-
-.flex-row-3 {
-    right: 200px;
-    margin: 50px; 
-    padding: 50px;
-    font: bold;
-    font-size: larger;
-    margin-top: 100px;
-    
+.headshot {
+    width: 300px;
+    border-radius: 150px;
+    display: flex;
+    margin-left: 600px;
+    margin: 300px;  
+    margin-top: -225px;
+    padding: 10px;
+    width: 70%;
+    list-style: none;
+    height: 200px;
+    width: 200px;  
 }
 
 .about-me-p {
@@ -140,24 +131,26 @@ li {
     font-size: larger;
     margin-top: -225px;
     float: right;
-}
-
-
-.section-title-primary-border {
-    font-size: 50px;
-     
+}   
+  
+.flex-row-2 {
+    right: 200px;
+    margin: 50px; 
+    padding: 5px;
+    font: bold;
+    font-size: larger;
+    margin-top: 100px;
 }
 
 .coding-img {
     display: flex;
-    margin-left: 500px;
     margin: 15px 25px;  
     padding: 10px;
     width: 70%;
     list-style: none;
-    height: 200px;
-    width: 200px; 
-        
+    height: -200px;
+    width: 100px; 
+    margin-top: -225px;
 }
 
 .coding-img ul {
@@ -166,7 +159,6 @@ li {
     width: 200px;
     list-style: none;
     padding: 200px;
-     
 }
 
 .coding-img ul li {
@@ -187,27 +179,37 @@ li {
     list-style: none;
 }
 
+.flex-row-3 {
+    right: 200px;
+    margin: 50px; 
+    padding: 50px;
+    font: bold;
+    font-size: larger;
+    margin-top: 100px;
+    
+}
+
 .contact-me {
     justify-content: space-between;
     list-style: none;
 }
 
 .flex-row {
-    justify-content: space-between;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
     list-style: none;
+    padding: 10px; 
+    margin: 100px;
+    margin-bottom: 100px;
 }
 
-.headshot {
-    width: 300px;
-    border-radius: 150px;
-    display: flex;
-    margin-left: 600px;
-    margin: 300px;  
-    margin-top: -225px;
-    padding: 10px;
-    width: 70%;
+.flex-row ul {
+    display:flex;
+    justify-content: center;
+    gap: 100px;
     list-style: none;
-    height: 200px;
-    width: 200px;  
-    
+    padding: 5px; 
+    margin: -200px;
+    margin-bottom: 100px;
 }
