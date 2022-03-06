@@ -98,38 +98,49 @@ li {
 
 }
 
-.flex-row {
-    position: right;
+.flex-row-1 {
     right: 200px;
     margin: 50px; 
     padding: 50px;
     font: bold;
     font-size: larger;
     margin-top: 100px;
-    border-right-style: #000000; 
-    border-right-style: solid;
+    border: 5px;
+    border-width: 2px;
+    border-color: #000000;
+  
 }
 
-.about-me {
-    position: right;
-    height: 55vh;
-    padding-bottom: 0px; 
-    margin-left: 50px;
-    margin-top: 100px;  
+.flex-row-2 {
+    right: 200px;
+    margin: 50px; 
+    padding: 5px;
+    font: bold;
+    font-size: larger;
+    margin-top: 100px;
+    
+}
+
+.flex-row-3 {
+    right: 200px;
+    margin: 50px; 
+    padding: 50px;
+    font: bold;
+    font-size: larger;
+    margin-top: 100px;
+    
 }
 
 .about-me-p {
-    position: flex;
-    right: 500px;
-    margin-left: 100px; 
+    display: flex;
+    right: 200px;
+    margin: 50px;
+    padding: 50px; 
     font: bold;
     font-size: larger;
+    margin-top: 100px;
 }
 
-
-.second-txt {
-    right: 200px;
-}
 
 .section-title-primary-border {
     font-size: 50px;
@@ -175,3 +186,17 @@ li {
     list-style: none;
 }
 
+.contact-me {
+    justify-content: space-between;
+    list-style: none;
+}
+
+.flex-row {
+    justify-content: space-between;
+    list-style: none;
+}
+
+.headshot {
+    width: 300px;
+    border-radius: 150px;
+}
