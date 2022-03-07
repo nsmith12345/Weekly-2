@@ -3,6 +3,8 @@
     padding: 0;
     margin: 0;
     background-color: #3aafa9;
+    /*I should include a div encompassing everything in html with a link here to display: flex; I did it too late and it messed up the formatting throughout. I will need to correct this.
+    I should have put font-size 48px as that works on all devices, again too late*/ 
 }
 
 /* HEADER / NAV BAR STYLES START */
@@ -84,6 +86,7 @@ li {
     background-repeat: no-repeat;
     min-width: 100%;
     background-repeat: no-repeat;
+    align-items: flex-start;
 }
 
 .first-txt {
@@ -144,6 +147,8 @@ li {
 
 .coding-img {
     display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
     margin: 15px 25px;  
     padding: 10px;
     margin-left: 600px; 
@@ -224,3 +229,136 @@ li {
     margin: -190px;
     margin-bottom: 100px;
 }
+
+* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+@media screen and (max-width: 980px) {
+    header {
+        padding-bottom: 0;
+        justify-content: center;
+      }
+    
+      header h1 {
+        width: 100%;
+        text-align: center;
+      }
+    
+      header nav ul {
+        margin-top: 20px;
+        width: 100%;
+        justify-content: center;
+      }
+    
+      header nav ul li a {
+        font-size: 20px;
+      }
+    
+      .flex-row-1 {
+          text-align: center;
+          width: 100%;
+      }
+
+      .flex-row-2 {
+          text-align: center;
+          width: 100%;
+      }
+
+      .flex-row-3: footer div {
+        text-align: center;
+        width: 100%;
+      }
+    }
+
+
+/* MEDIA QUERY FOR TABLETS AND SMALLER */
+@media screen and (max-width: 768px) {
+  header h1 {
+    /* this will be applied on any screen between 768px and 575px */
+    font-size: 80px;
+  }
+
+  header {
+    padding-bottom: 0;
+    justify-content: center;
+  }
+
+  header h1 {
+    width: 100%;
+    text-align: center;
+  }
+
+  header nav ul {
+    margin-top: 20px;
+    width: 100%;
+    justify-content: center;
+  }
+
+  header nav ul li a {
+    font-size: 20px;
+  }
+
+  .flex-row-1 {
+      text-align: center;
+      width: 100%;
+  }
+
+  .flex-row-2 {
+      flex: 0 32%;  
+      text-align: center;
+      width: 100%;
+  }
+
+  .flex-row-3: footer div {
+    text-align: center;
+    width: 100%;
+  }
+}
+
+
+
+
+
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+@media screen and (max-width: 575px) {
+  header h1 {
+    /* this will be applied on any screen smaller than 575px */
+    font-size: 80px;
+}
+    
+      header {
+        padding-bottom: 0;
+        justify-content: center;
+      }
+    
+      header h1 {
+        width: 100%;
+        text-align: center;
+      }
+    
+      header nav ul {
+        margin-top: 20px;
+        width: 100%;
+        justify-content: center;
+      }
+    
+      header nav ul li a {
+        font-size: 20px;
+      }
+    
+      .flex-row-1 {
+          text-align: center;
+          width: 100%;
+      }
+    
+      .flex-row-2 {
+          flex: 0 32%;  
+          text-align: center;
+          width: 100%;
+      }
+    
+      .flex-row-3: footer div {
+        text-align: center;
+        width: 100%;
+      }
+    }
+    
+
