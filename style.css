@@ -3,9 +3,12 @@
     padding: 0;
     margin: 0;
     background-color: #3aafa9;
-    /*I should include a div encompassing everything in html with a link here to display: flex; I did it too late and it messed up the formatting throughout. I will need to correct this.
-    I should have put font-size 48px as that works on all devices, again too late*/ 
+    /*I should include a div, encompassing everything in html with a link here to display: flex; so I can use flex wrap on the four boxes and flex basis on the top box. I did it too late and it messed up the formatting throughout. I will need to correct this.
+    I should have put font-size 48px as that works on all devices, again too late.
+    I should have also put the font, font style etc throughout in this top section.*/ 
 }
+
+/* Body Begins */
 
 /* HEADER / NAV BAR STYLES START */
 
@@ -61,8 +64,6 @@ header nav ul li a:hover {
     text-shadow: none;
 }
 
-/* HEADER / NAVBAR STYLES END */
-
 .nav {
     display: flex;
     justify-content: space-between;
@@ -77,6 +78,10 @@ ul {
 li {
     width: 200px;
 }
+
+/* HEADER / NAVBAR STYLES END */
+
+/* Hero/Jumbotron Starts */ 
 
 .hero img {
     /* background-image: url("/images/header-image.jpg"); */
@@ -98,6 +103,10 @@ li {
     color: rgb(2, 2, 2);
     background-color: #3aafa9
 }
+
+/* Hero/Jumbotron Ends */
+
+/* About Me */
 
 .flex-row-1 {
     right: 200px;
@@ -135,7 +144,11 @@ li {
     margin-top: -225px;
     float: right;
 }   
+
+/* About Me Ends */
   
+/* Work */
+
 .flex-row-2 {
     right: 200px;
     margin: 50px; 
@@ -168,8 +181,6 @@ li {
     right:200px;
     list-style: none;
     border: yellow;
-
-    
 }
 
 .coding-img ul li {
@@ -195,6 +206,8 @@ li {
     list-style: none;
 }
 
+/* Work Ends */
+
 .flex-row-3 {
     right: 200px;
     margin: 50px; 
@@ -202,8 +215,11 @@ li {
     font: bold;
     font-size: larger;
     margin-top: 100px;
-    
 }
+
+/* Start of Footer */
+
+/* Contact Me */
 
 .contact-me {
     justify-content: space-between;
@@ -229,6 +245,14 @@ li {
     margin: -190px;
     margin-bottom: 100px;
 }
+
+/* Contact Me Ends */
+
+/* Footer Ends */
+
+/* Body Ends */
+
+/* Media Queries Begin, 980px, 768px and 575px */
 
 * MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
 @media screen and (max-width: 980px) {
@@ -313,10 +337,6 @@ li {
   }
 }
 
-
-
-
-
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
 @media screen and (max-width: 575px) {
   header h1 {
@@ -361,4 +381,4 @@ li {
       }
     }
     
-
+/* Media Queries Ends, 980px, 768px and 575px */
