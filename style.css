@@ -254,12 +254,14 @@ li {
 
 /* Media Queries Begin, 980px, 768px and 575px */
 
-* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
 @media screen and (max-width: 980px) {
     header {
         padding-bottom: 0;
         justify-content: center;
-      }
+        
+    }
+
     
       header h1 {
         width: 100%;
@@ -286,11 +288,11 @@ li {
           width: 100%;
       }
 
-      .flex-row-3: footer div {
+      .flex-row-3 footer div {
         text-align: center;
         width: 100%;
       }
-    }
+
 
 
 /* MEDIA QUERY FOR TABLETS AND SMALLER */
@@ -331,7 +333,7 @@ li {
       width: 100%;
   }
 
-  .flex-row-3: footer div {
+  .flex-row-3 footer div {
     text-align: center;
     width: 100%;
   }
@@ -375,10 +377,9 @@ li {
           width: 100%;
       }
     
-      .flex-row-3: footer div {
+      .flex-row-3 footer div {
         text-align: center;
         width: 100%;
       }
     }
-    
-/* Media Queries Ends, 980px, 768px and 575px */
+    /* Media Queries Ends, 980px, 768px and 575px */
